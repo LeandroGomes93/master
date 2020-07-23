@@ -146,3 +146,6 @@ service cron restart >/dev/null 2>&1
 service ssh restart >/dev/null 2>&1
 [[ -d /var/www/html/openvpn ]] && service apache2 restart >/dev/null 2>&1
 rm -rf $home/list >/dev/null 2>&1
+cd
+rm sshplus
+menu
