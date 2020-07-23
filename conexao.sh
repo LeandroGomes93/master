@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[[ $(awk -F" " '{print $2}' /usr/lib/licence) == "@SSHPlus00" ]] && {
+[[ $(awk -F" " '{print $2}' /usr/lib/licence) == "@crazy_vpn" ]] && {
 	ram1=$(free -h | grep -i mem | awk {'print $2'})
 	ram2=$(free -h | grep -i mem | awk {'print $4'})
 	ram3=$(free -h | grep -i mem | awk {'print $3'})
