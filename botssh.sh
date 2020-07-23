@@ -1,10 +1,5 @@
 #!/bin/bash
-#====================================================
-#	SCRIPT: BOTSSH SSHPLUS MANAGER
-#	DESENVOLVIDO POR:	CRAZY_VPN
-#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
-#	CANAL TELEGRAM:	http://t.me/sshplus
-#====================================================
+
 clear
 fun_bar() {
     comando[0]="$1"
@@ -45,7 +40,7 @@ fun_botOnOff() {
         clear
         echo -e "\033[1;32mINICIANDO BOT SSHPLUS \033[0m\n"
         fun_bot1() {
-            [[ ! -e "/etc/SSHPlus/ShellBot.sh" ]] && wget -qO- https://raw.githubusercontent.com/shellscriptx/shellbot/master/ShellBot.sh >/etc/SSHPlus/ShellBot.sh
+            [[ ! -e "/etc/SSHPlus/ShellBot.sh" ]] && wget -qO- https://raw.githubusercontent.com/SSHPlus00/master/Install/ShellBot.sh >/etc/SSHPlus/ShellBot.sh
             cd /etc/SSHPlus
             screen -dmS bot_plus ./bot $tokenbot $iduser >/dev/null 2>&1
             [[ $(grep -wc "bot_plus" /etc/autostart) = '0' ]] && {
