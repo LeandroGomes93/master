@@ -28,75 +28,75 @@ service ssh restart
 
 wget https://raw.githubusercontent.com/SSHPlus00/master/Install/addhost.sh -O /bin/addhost > /dev/null 2>&1
 chmod +x /bin/addhost
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/ajuda.sh /bin/ajuda > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/ajuda.sh -O /bin/ajuda > /dev/null 2>&1
 chmod +x /bin/ajuda
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/alterarlimite.sh /bin/alterarlimite > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/alterarlimite.sh -O /bin/alterarlimite > /dev/null 2>&1
 chmod +x /bin/alterarlimite
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/alterarsenha.sh /bin/alterarsenha > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/alterarsenha.sh -O /bin/alterarsenha > /dev/null 2>&1
 chmod +x /bin/alterarsenha
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/attscript.sh /bin/attscript > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/attscript.sh -O /bin/attscript > /dev/null 2>&1
 chmod +x /bin/attscript
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/badvpn.sh /bin/badvpn > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/badvpn.sh -O /bin/badvpn > /dev/null 2>&1
 chmod +x /bin/badvpn
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/banner.sh /bin/banner > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/banner.sh -O /bin/banner > /dev/null 2>&1
 chmod +x /bin/banner
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/blockt.sh /bin/blockt > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/blockt.sh -O /bin/blockt > /dev/null 2>&1
 chmod +x /bin/blockt
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/botssh.sh /bin/botssh > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/botssh.sh -O /bin/botssh > /dev/null 2>&1
 chmod +x /bin/botssh
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/conexao.sh /bin/conexao > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/conexao.sh -O /bin/conexao > /dev/null 2>&1
 chmod +x /bin/conexao
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/criarteste.sh /bin/criarteste > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/criarteste.sh -O /bin/criarteste > /dev/null 2>&1
 chmod +x /bin/criarteste
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/criarusuario.sh /bin/criarusuario > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/criarusuario.sh -O /bin/criarusuario > /dev/null 2>&1
 chmod +x /bin/criarusuario
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/delhost.sh /bin/delhost > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/delhost.sh -O /bin/delhost > /dev/null 2>&1
 chmod +x /bin/delhost
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/delscript.sh /bin/delscript > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/delscript.sh -O /bin/delscript > /dev/null 2>&1
 chmod +x /bin/delscript
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/detalhes.sh /bin/detalhes > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/detalhes.sh -O /bin/detalhes > /dev/null 2>&1
 chmod +x /bin/detalhes
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/droplimiter.sh /bin/droplimiter > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/droplimiter.sh -O /bin/droplimiter > /dev/null 2>&1
 chmod +x /bin/droplimiter
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/expcleaner.sh /bin/expcleaner > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/expcleaner.sh -O /bin/expcleaner > /dev/null 2>&1
 chmod +x /bin/expcleaner
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/infousers.sh /bin/infousers > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/infousers.sh -O /bin/infousers > /dev/null 2>&1
 chmod +x /bin/infousers
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/limiter.sh /bin/limiter > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/limiter.sh -O /bin/limiter > /dev/null 2>&1
 chmod +x /bin/limiter
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/menu.sh /bin/menu > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/menu.sh -O /bin/menu > /dev/null 2>&1
 chmod +x /bin/menu
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/mudardata.sh /bin/mudardata > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/mudardata.sh -O /bin/mudardata > /dev/null 2>&1
 chmod +x /bin/mudardata
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/otimizar.sh /bin/otimizar > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/otimizar.sh -O /bin/otimizar > /dev/null 2>&1
 chmod +x /bin/otimizar
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/reiniciarservicos.sh /bin/reiniciarservicos > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/reiniciarservicos.sh -O /bin/reiniciarservicos > /dev/null 2>&1
 chmod +x /bin/reiniciarservicos
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/reiniciarsistema.sh /bin/reiniciarsistema > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/reiniciarsistema.sh -O /bin/reiniciarsistema > /dev/null 2>&1
 chmod +x /bin/reiniciarsistema
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/remover.sh /bin/remover > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/remover.sh -O /bin/remover > /dev/null 2>&1
 chmod +x /bin/remover
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/senharoot.sh /bin/senharoot > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/senharoot.sh -O /bin/senharoot > /dev/null 2>&1
 chmod +x /bin/senharoot
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/speedtest.sh /bin/speedtest > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/speedtest.sh -O /bin/speedtest > /dev/null 2>&1
 chmod +x /bin/speedtest
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/sshmonitor.sh /bin/sshmonitor > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/sshmonitor.sh -O /bin/sshmonitor > /dev/null 2>&1
 chmod +x /bin/sshmonitor
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/uexpired.sh /bin/uexpired > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/uexpired.sh -O /bin/uexpired > /dev/null 2>&1
 chmod +x /bin/uexpired
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/userbackup.sh /bin/userbackup > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/userbackup.sh -O /bin/userbackup > /dev/null 2>&1
 chmod +x /bin/userbackup
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/verifbot.sh /bin/verifbot > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/verifbot.sh -O /bin/verifbot > /dev/null 2>&1
 chmod +x /bin/verifbot
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/verifatt.sh /bin/verifatt > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/verifatt.sh -O /bin/verifatt > /dev/null 2>&1
 chmod +x /bin/verifatt
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/cabecalho.sh /etc/SSHPlus/cabecalho > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/cabecalho.sh -O /etc/SSHPlus/cabecalho > /dev/null 2>&1
 chmod +x /etc/SSHPlus/cabecalho
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/bot.sh /etc/SSHPlus/bot > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/bot.sh -O /etc/SSHPlus/bot > /dev/null 2>&1
 chmod +x /etc/SSHPlus/bot
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/proxy.py  /etc/SSHPlus/proxy.py > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/proxy.py -O  /etc/SSHPlus/proxy.py > /dev/null 2>&1
 chmod +x /etc/SSHPlus/proxy.py
-wget https://raw.githubusercontent.com/SSHPlus00/master/Install/proxy.py  /etc/SSHPlus/open.py > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/proxy.py -O  /etc/SSHPlus/open.py > /dev/null 2>&1
 chmod +x /etc/SSHPlus/open.py
 
 _dir1='/bin'
