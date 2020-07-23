@@ -1,12 +1,4 @@
 #!/bin/bash
-#===================================================
-#	SCRIPT: BOT SSHPLUS MANAGER
-#   DATA ATT:   15 de Jul 2020
-#	DESENVOLVIDO POR:	CRAZY_VPN
-#   API SHELLBOT:   SHAMAN
-#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
-#	CANAL TELEGRAM:	http://t.me/sshplus
-#===================================================
 [[ ! -d /etc/SSHPlus ]] && exit 0
 [[ ! -d /etc/bot ]] && exit 0
 source ShellBot.sh
@@ -14,7 +6,7 @@ api_bot=$1
 id_admin=$2
 [[ -z $api_bot ]] && exit 0
 [[ -z $id_admin ]] && exit 0
-[[ $(awk -F" " '{print $2}' /usr/lib/licence) != "@crazy_vpn" ]] && exit 0
+[[ $(awk -F" " '{print $2}' /usr/lib/licence) != "@SSHPlus00" ]] && exit 0
 ativos='/etc/bot/lista_ativos'
 suspensos='/etc/bot/lista_suspensos'
 ShellBot.init --token "$api_bot" --monitor --return map --flush
