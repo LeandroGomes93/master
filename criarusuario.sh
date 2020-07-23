@@ -1,10 +1,5 @@
 #!/bin/bash
-#====================================================
-#	SCRIPT: CRIARUSUARIO SSHPLUS MANAGER
-#	DESENVOLVIDO POR:	CRAZY_VPN
-#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
-#	CANAL TELEGRAM:	http://t.me/sshplus
-#====================================================
+
 IP=$(cat /etc/IP)
 cor1='\033[41;1;37m'
 cor2='\033[44;1;37m'
