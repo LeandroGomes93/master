@@ -62,7 +62,7 @@ fun_atts () {
 
   [[ -e /tmp/att ]] && rm /tmp/att
 
-	wget -c -P /home https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/versao
+	wget -c -P /home https://raw.githubusercontent.com/SSHPlus00/master/Install/versao
 
 	[[ -f "/home/versao" ]] && mv /home/versao /tmp/att
 
@@ -132,12 +132,12 @@ vrs2=$(sed -n '1 p' /tmp/att | sed -e 's/[^0-9]//ig')
 
     sleep 3
 
-    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Plus > /dev/null 2>&1
+    wget https://raw.githubusercontent.com/SSHPlus00/master/master/sshplus.sh > /dev/null 2>&1
 
-    chmod +x Plus
-
-    ./Plus
-
+    chmod +x sshplus.sh
+    
+    ./sshplus.sh
+    
     clear
 
     echo -e "\033[1;32mSCRIPT ATUALIZADO COM SUCESSO\033[0m\n"
