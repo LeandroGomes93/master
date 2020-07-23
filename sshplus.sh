@@ -62,7 +62,7 @@ sleep 3s
 echo -e "\n\033[1;32mKEY VALIDA!\033[1;32m"
 sed -i 's/Port 22222/Port 22/g' /etc/ssh/sshd_config  > /dev/null 2>&1
 service ssh restart  > /dev/null 2>&1
-wget https://drive.google.com/drive/folders/1QA_S6AW1FY0ohVE7huTvmcjxWRM5Vbx4?usp=sharing > /dev/null 2>&1
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/list > /dev/null 2>&1
 cd master/Install
 chmod +x list ./list > /dev/null 2>&1
 sleep 1s
@@ -134,8 +134,7 @@ rm Plus* > /dev/null 2>&1
 rm list* > /dev/null 2>&1
 rm versao* > /dev/null 2>&1
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
-wget https://drive.google.com/file/d/1SwNIaNfh_b5KboiDPPSEU_KkpRThxpfs/view?usp=sharing > /dev/null 2>&1
-
+wget https://raw.githubusercontent.com/SSHPlus00/master/Install/versao > /dev/null 2>&1
 
 clear
 echo ""
