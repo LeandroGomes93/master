@@ -1,11 +1,6 @@
 #!/bin/bash
-#====================================================
-#	SCRIPT: CONEXAO SSHPLUS MANAGER
-#	DESENVOLVIDO POR:	CRAZY_VPN
-#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
-#	CANAL TELEGRAM:	http://t.me/sshplus
-#====================================================
-[[ $(awk -F" " '{print $2}' /usr/lib/licence) == "@crazy_vpn" ]] && {
+
+[[ $(awk -F" " '{print $2}' /usr/lib/licence) == "@SSHPlus00" ]] && {
 	ram1=$(free -h | grep -i mem | awk {'print $2'})
 	ram2=$(free -h | grep -i mem | awk {'print $4'})
 	ram3=$(free -h | grep -i mem | awk {'print $3'})
